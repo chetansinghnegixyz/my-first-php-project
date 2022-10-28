@@ -1,0 +1,32 @@
+:root{
+   --red: #ff0000;
+   --white: #ffffff;
+}
+html,body{
+    background-attachment: fixed;
+    background-image: url("images/sky\ image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+.card{
+    width: 35rem;
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.card-header h2{
+    color: var(--white);
+}
+.input-group span{
+    background-color: var(--red);
+    border: 0;
+    color: var(--white);
+}
+.card-footer a{
+    color: var(--red);
+    text-decoration: none;
+}
